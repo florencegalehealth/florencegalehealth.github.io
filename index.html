@@ -8,12 +8,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="manifest" href="site.webmanifest">
-  <link rel="icon" type="image/png" href="static/img/favicon.png">
+  <link rel="icon" type="image/png" href="img/favicon.png">
   <link rel="apple-touch-icon" href="icon.png">
 
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet"> 
 
   <link rel="stylesheet" href="css/main.css">
+  
+  <script src="https://kit.fontawesome.com/ae80c4810b.js" crossorigin="anonymous"></script>
+  </head>
 
   <meta name="theme-color" content="#fafafa">
 </head>
@@ -25,18 +28,30 @@
   <nav>
     <img alt="Home Physicals by Florence Gale Health Logo" class="logo" src="img/florence-gale-health-home-physicals-log.png" />
   </nav>
-  <main>
-	<figure class="fig-container">
-	    <h1 class="hero-header">Physical exams<div style="font-weight: 100;">in the</div>comfort of your home</h1>
+  <main class="fig-container">
+    <div class="hero-caption">
+	<h1 class="hero-header">Physical exams<span class="break-header">in the</span>comfort of your home</h1>
+    </div>
+    <figure>
         <video autoplay class="hero-video" loop poster="img/best-in-person-home-physical-exam.jpg">
             <source src="vid/best-in-person-home-physical-exam.mp4" type="video/mp4">
         </video>
     </figure>
   </main>
 
-  <section>
-    <p>You are busy and taking time off from work for your annual exam or your child's sport or physical exam is the last thing you need.  Florence Gale Health is available 24/7 and will send a healthcare professional to you.  No more waiting in the clinic for a 15 minute physical exam.  Our providers can complete a comprehensive, in-person physical exam in the comfort of your home.  Our providers will sign any necessary forms or provide a letter.</p>
+  <section class="text-section yellow-bg" style="display: flex; flex-wrap: wrap;">
+    <span style="flex-grow: 1;"><i class="fad fa-house-day lrg-inline-icn"></i></span>
+    <p style="flex-grow:2;">You are busy.  Taking time off from work for your annual exam or your child's sport or physical exam is the last thing you need.<br /><br />Our providers can complete a comprehensive, in-person physical exam in the comfort of your home and sign any necessary forms or provide a letter.</p>
   </section>
+  
+  <section class="text-section green-bg">
+    <i class="fa-user-md fal lrg-icn"></i>
+    <p>Florence Gale Health is available 24/7 and will send a healthcare professional to you.<br />No more waiting in the clinic for a 15 minute physical exam.</p>
+  </section>
+
+  <footer class="main-footer">
+    <p><img alt="Florence Gale Health Logo" height="18px" src="img/logo.jpg" /> Florence Gale Health &#9400; 2020</p>
+  </footer>
   
   <script src="js/vendor/modernizr-3.8.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
